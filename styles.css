@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #1D3557;
+}
+
+img {
+    width: 150px;
+}
+
+.hero {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    margin: 0 0 0 0;
+    padding: 100px 100px 100px 100px;
+    text-shadow: 0 0 1px white;
+}
+
+.activity {
+    background: #F1FAEE;
+}
+
+#activity-title {
+    font-size: 30px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.activity-img-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.activity-solo {
+    padding: 20px 20px;
+}
+
+.activity-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.img-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.img-desc {
+    font-size: 15px;
+}
+
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background: #A8DADC;
+    border-bottom: 10px solid #1D3557;
+    width: 40%;
+}
+
+#guide-img {
+    margin: 10px;
+}
+
+#guide-desc {
+    padding: 10px;
+}
